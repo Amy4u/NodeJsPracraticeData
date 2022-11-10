@@ -4,10 +4,11 @@ const fs = require('fs');
 const { writeFile } = require('fs');
 const http = require('http');
 const _ = require('lodash');
-const  = require('lodash');
+const lodash  = require('lodash');
 
 let num = _.once(()=>{
     console.log("greet");
+    console.log("For github");
 })
 num();
 num();
