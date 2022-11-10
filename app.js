@@ -8,6 +8,7 @@ const lodash  = require('lodash');
 
 let num = _.once(()=>{
     console.log("greet");
+    console.log("For github");
 })
 num();
 num();
